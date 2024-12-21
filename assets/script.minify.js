@@ -1,0 +1,1 @@
+const text=document.getElementById("textId"),text1=document.getElementById("textid");text.innerHTML=text.textContent.replace(/\S/g,"<span>$&</span>"),text1.innerHTML=text1.textContent.replace(/\S/g,"<span>$&</span>");const MySpan=document.querySelectorAll("span");MySpan.forEach(t=>{t.addEventListener("mouseover",()=>{t.classList.add("active")})});
